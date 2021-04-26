@@ -2,13 +2,12 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBKGhzKroP6J8sDjV6VnvrjGbiBe43a7-A",
-  authDomain: "crud-react-udemy-90f23.firebaseapp.com",
-  databaseURL: "https://crud-react-udemy-90f23.firebaseio.com",
-  projectId: "crud-react-udemy-90f23",
-  storageBucket: "crud-react-udemy-90f23.appspot.com",
-  messagingSenderId: "922753188008",
-  appId: "1:922753188008:web:be78f2918789306457c29d",
+  apiKey: "AIzaSyCHErV9SsBoCq11kxLKixMzRdZ_41f-p84",
+  authDomain: "todo-app-372e0.firebaseapp.com",
+  projectId: "todo-app-372e0",
+  storageBucket: "todo-app-372e0.appspot.com",
+  messagingSenderId: "290822386971",
+  appId: "1:290822386971:web:ce8b19551752a54c974fbe",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
